@@ -1,0 +1,13 @@
+{
+  "python": ["python", "питон", "пайтон", "django", "fastapi", "flask", "bottle", "tornado"],
+  "go": ["go", "golang", "го", "голанг", "chi", "gin", "echo"],
+  "java": ["java", "джава", "spring", "spring boot", "hibernate", "maven", "gradle"],
+  "javascript": ["javascript", "js", "node.js", "нод", "нода", "react", "vue", "angular", "typescript", "ts"],
+  "csharp": ["c#", "csharp", "dotnet", ".net", "asp.net"],
+  "cpp": ["c++", "с++", "cpp"],
+  "sql": ["sql", "postgresql", "postgres", "mysql", "mariadb", "sqlite", "oracle", "база данных", "бд"],
+  "devops": ["devops", "docker", "kubernetes", "k8s", "ansible", "terraform", "jenkins", "ci/cd", "gitlab", "github actions"],
+  "data": ["data", "аналитик", "дата", "ml", "ai", "pandas", "numpy", "scikit", "tensorflow", "pytorch", "spark", "hadoop"],
+  "qa": ["тестировщик", "qa", "автотесты", "selenium", "postman", "jmeter", "ручное тестирование"],
+  "design": ["дизайн", "figma", "adobe", "photoshop", "иллюстратор", "ui", "ux", "дизайнер"]
+}
