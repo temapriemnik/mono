@@ -1,0 +1,15 @@
+services:
+  prompt_gateway:
+    build: .
+    ports:
+      - "8082:8082"
+    environment:
+      - LLM_WRAPPER_URL=http://llm_wrapper:8080/
+      - SEARCH_SERVICE_URL=http://search_service:8080/search
+      - PORT=8082
+    networks:
+      - wolkby-net
+
+networks:
+  wolkby-net:
+    external: true
