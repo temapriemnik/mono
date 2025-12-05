@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain-core>=0.2.38,<0.3.0      # ← обновлено
+langchain-community==0.2.16
+langchain-mistralai==0.1.8
+langchain-chroma==0.1.4
+chromadb==0.5.10
+pypdf
+python-docx
+docx2txt
+beautifulsoup4
+requests
+tiktoken
+sentence-transformers

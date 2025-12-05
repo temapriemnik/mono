@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  rag_service:
+    build: ./app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./documents:/app/documents:ro
+      - ./chroma:/app/chroma
+      - ./logs:/app/logs
+    environment:
+      - LLM_WRAPPER_URL=http://llm_wrapper:8080/
+      - MISTRAL_API_KEY=78nKLxkRPHnrfdpdHW62iL5riQaIdy9W
+    restart: unless-stopped
+    networks:
+      - wolkby-net
+
+
+
+networks:
+  wolkby-net:
+    external: true
